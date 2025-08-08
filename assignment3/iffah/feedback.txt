@@ -1,0 +1,22 @@
+### Question 1
+Great job! Something to take note, you can use the array.length property to get the number of elements in the array dynamically, to prevent careless mistakes of miscounting the number of elements
+
+
+### Question 2
+Great job!
+
+
+### Question 3
+Great job!
+
+
+### Question 4
+Great job!
+
+
+### Question 5
+Great job!
+
+
+### Question 6
+In line 18 of question6.js, it should be if volume > 100000 instead of 1000. Same for line 25. Other than that, the logic is correct :) Great job!
