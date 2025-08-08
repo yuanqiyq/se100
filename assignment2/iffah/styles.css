@@ -1,0 +1,101 @@
+/* ================TOTAL SCORE FOR PART 1: 48/50=================== */
+
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling -- 10/10 marks */ 
+
+header {
+    background-color: #93d0f4;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    width: 240px;
+}
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+section {
+    padding: 15px 0px 15px 0px;
+}
+
+h2 { 
+    font-size: 20px;
+}
+
+/* table styling -- 17/20marks */
+
+table {
+    width: 100%;
+    border-color: #ddd;
+    border-style: solid;
+    border-collapse: collapse; 
+    /* ================edited================ */
+    /* border-width: 1px */
+}
+
+td {
+    padding: 10px; 
+    text-align: left; 
+}
+
+/* ================edited================ */
+/* td, th {
+    padding: 10px; 
+    text-align: left;
+} */
+
+/* table, th, td {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+} */
+
+
+/* ====================COMMENTS====================== */
+
+/* Generally the output looks correct, however here are some additional details to take note if you'd like :) */
+/* Firstly, we need to define the border-width as 1px. However, since our html file has the 'border="1"' property, the default settings are border 1px, solid and black. This is why your output still looks the same even without the 'border-width: 1px' explicitly mentioned here.  */
+/* Next, the left align and padding 10px should apply to all table cells (BOTH td and th), not just td */
+/* Lastly, the question requires us to create a border with solid lines of 1px thickness and a colour code of #ddd for the table and its contents. Usually, this would require us to add the border CSS to the <th> and <td> selectors as well, not just the <table>. However, in this case, it looks like the same output on the browser because of the border-collapse. Without it, we can see that the table cells (td and th) do not actually have borders around them. You may play around to see :) */
+
+/* ====================END OF COMMENTS====================== */
+
+
+
+/* link stylings -- 20/20marks */
+
+a {
+    color: #0079c1;
+}
+
+ul {
+    padding-left: 40px; 
+    padding-bottom: 20px;
+} /* bonus 1m */
+
+footer {
+    background-color: #93d0f4;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    text-align: center;
+}

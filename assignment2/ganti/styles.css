@@ -1,0 +1,105 @@
+/* ================ TOTAL SCORE FOR THIS SECTION: 41/50m =============== */
+
+.font-family {
+    font-family: Arial, sans-serif;
+}
+
+/* header styling -- 10/10m */
+.header-format { color: white;
+                background-color: #93d0f4;
+                position: relative;
+                text-align: center; 
+}
+
+.header-format h1 {
+    padding: 20px 50px 0px 50px;
+}
+
+.header-format img {
+    background-color: #93d0f4; padding: 0px 50px 30px 50px;
+}
+
+/* table styling -- 11/20m
+============ Comments for table styling: ==============
+
+Do remember to set the border to 1px and colour #ddd, set the padding for table cells to 10px instead of 5px and set text-align for table cells to left. 
+
+Next, the reason why the 3 cells on the far right looks like separate cells is because you have set the border to be solid for the <tr> element. This means that each row will have a solid border around it, which makes it look like the cells are separate. Instead, you should set the border for the <table>, <th>, and <td> elements only, not for the <tr> element.
+
+==================================================== */
+
+
+/* =============== original code ============== */
+/* .table-format {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+    width: 100%;
+}
+
+.table-format tr {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+    padding: 5px;
+}
+
+.table-format td {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+    padding: 5px;
+}
+
+.table-format th {
+    border-collapse: collapse;
+    border: 0,3px solid black;
+    padding: 5px;
+} */
+/* ============ end of original code =============== */
+
+
+
+/* ============== edited code ================ */
+.table-format {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+
+.table-format td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-format th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+/* ============ end of edited code =============== */
+
+
+/* links and footer styling -- 20/20m */
+
+.links-section ul {
+        padding-left: 10px;
+        margin-left: 0;
+}
+
+.links-section ul li a{
+    color: #0079c1; 
+    text-decoration: none;
+}
+
+.footer-format {
+    color: white;
+    background-color: #93d0f4;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/* ============== General Comments =============== */
+/* Instead of adding your own class names, it is also possible to use the element tags like header, main, body, table, etc. */
