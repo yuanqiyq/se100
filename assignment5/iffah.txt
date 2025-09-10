@@ -1,0 +1,23 @@
+p.then(value => console.log(value));
+p.catch(error => console.log(error));
+p.then(value => console.log(value));
+p.then(value => console.log(value.name));
+p.catch(error => console.log(error));
+p.then(value => console.log(value * 2));
+p.then(value => console.log(value * 2));
+p.catch(() => 0).then(value => console.log(value));
+Promise.all(promises).then(values => console.log(values));
+then(value => console.log(value));
+
+
+==================== COMMENTS ====================
+For question 6, the question wants us to try using the '.finally()' method. finally() is used after the promise is settled, which means the then or catch has been fulfilled.The code inside finally() will execute regardless of whether the promise succeeded (resolve) or failed (reject)
+
+Here is the correct answer for Q6: 
+p.finally(() => console.log('Promise settled'));
+
+==================================================
+
+For question 10, we can try using the .race() method. This takes in a list of promises, and resolves all of it at once, and return the value of the promise that is settled (either resolved or rejected) first.
+
+==================================================
